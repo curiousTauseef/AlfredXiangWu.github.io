@@ -4,14 +4,14 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="all-archives">
-    <title> - all-archives</title>
+    <meta name="generator" content="Alfred Xiang Wu&#39;s HomePage">
+    <title>Deep Face Representation - Alfred Xiang Wu&#39;s HomePage</title>
     <meta name="author" content="Alfred Xiang Wu">
-    <meta name="description" content="all-archives">
-    <link rel="icon" href="../../../../assets/images/null">
+    <meta name="description" content="Alfred Xiang Wu&#39;s HomePage">
+    <link rel="icon" href="assets/images/null">
     
     <!--STYLES-->
-    <link rel="stylesheet" href="../../../../assets/css/style.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.min.css" type="text/css">
     <!--STYLES END-->
     
 </head>
@@ -21,20 +21,20 @@
             <header id="header" data-behavior="1">
     <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
     <h1 class="header-title">
-        <a class="header-title-link" href="http://AlfredXiangWu.github.io">all-archives</a>
+        <a class="header-title-link" href="http://AlfredXiangWu.github.io">Alfred Xiang Wu&#39;s HomePage</a>
     </h1>
     
-        <a class="header-right-picture" href="../../../../#about">
-            <img class="header-picture" src="../../../../assets/images/vivio.jpg"/>
+        <a class="header-right-picture" href="/#about">
+            <img class="header-picture" src="assets/images/vivio.jpg"/>
         </a>
     
 </header>
             <nav id="sidebar" data-behavior="1">
     
     <div class="sidebar-profile">
-        <a href="../../../../#about">
+        <a href="/#about">
             
-            <img class="sidebar-profile-picture" src="../../../../assets/images/vivio.jpg"/>
+            <img class="sidebar-profile-picture" src="assets/images/vivio.jpg"/>
             
         </a>
         <span class="sidebar-profile-name">Alfred Xiang Wu</span>
@@ -45,7 +45,7 @@
         
         <li class="sidebar-button">
             
-                <a  class="sidebar-button-link " href="../../../../index.html">
+                <a  class="sidebar-button-link " href="index.html">
             
                     <i class="sidebar-button-icon fa fa-lg fa-home"></i>
                     <span class="sidebar-button-desc">Home</span>
@@ -54,7 +54,7 @@
         
         <li class="sidebar-button">
             
-                <a  class="sidebar-button-link " href="../../../../all-categories">
+                <a  class="sidebar-button-link " href="/all-categories">
             
                     <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
                     <span class="sidebar-button-desc">Categories</span>
@@ -63,7 +63,7 @@
         
         <li class="sidebar-button">
             
-                <a  class="sidebar-button-link " href="../../../../all-tags">
+                <a  class="sidebar-button-link " href="/all-tags">
             
                     <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
                     <span class="sidebar-button-desc">Tags</span>
@@ -72,7 +72,7 @@
         
         <li class="sidebar-button">
             
-                <a  class="sidebar-button-link " href="../../../../all-archives">
+                <a  class="sidebar-button-link " href="/all-archives">
             
                     <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
                     <span class="sidebar-button-desc">Archives</span>
@@ -81,7 +81,7 @@
         
         <li class="sidebar-button">
             
-                <a  class="sidebar-button-link st-search-show-outputs" href="../../../../#search">
+                <a  class="sidebar-button-link st-search-show-outputs" href="/#search">
             
                     <i class="sidebar-button-icon fa fa-lg fa-search"></i>
                     <span class="sidebar-button-desc">Search</span>
@@ -90,7 +90,7 @@
         
         <li class="sidebar-button">
             
-                <a  class="sidebar-button-link " href="../../../../about">
+                <a  class="sidebar-button-link " href="/about">
             
                     <i class="sidebar-button-icon fa fa-lg fa-question"></i>
                     <span class="sidebar-button-desc">About me</span>
@@ -116,7 +116,7 @@
         
         <li class="sidebar-button">
             
-                <a  class="sidebar-button-link " href="../../../../atom.xml">
+                <a  class="sidebar-button-link " href="/atom.xml">
             
                     <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
                     <span class="sidebar-button-desc">RSS</span>
@@ -132,23 +132,96 @@
     
         <div class="post-header main-content-wrap">
     
-        <h1 class="post-title" itemprop="headline">(no title)</h1>
+        <h1 class="post-title" itemprop="headline">Deep Face Representation</h1>
     
     <div class="post-meta">
-    <time  itemprop="datePublished" content="Wed Jun 17 2015 16:53:18 GMT+0800">
-        Jun 17, 2015
+    <time  itemprop="datePublished" content="Thu Jun 18 2015 19:17:56 GMT+0800">
+        Jun 18, 2015
     </time>
+    
+        <span>in </span>
+        
+    <a class="category-link" href="categories/index.html">Deep Learning</a>
+
+
     
 </div>
 </div>
     
     <div class="post-content markdown main-content-wrap" itemprop="articleBody">
-        <h1 id="test">test</h1>
+        <p>This <a href="https://github.com/AlfredXiangWu/lfw_face_verification_experiment" target="_blank" rel="external">Deep Face Representation Experiment</a> is based on Convolution Neural Network to learn a robust feature for face verification task. The popular deep learning framework <a href="https://github.com/AlfredXiangWu/caffe" target="_blank" rel="external"><i>caffe</i></a> is used for training on <a href="http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html" target="_blank" rel="external">CASIA-WebFace dataset</a>  and the feature extraction is realized by python code <a href="https://github.com/AlfredXiangWu/python_misc/blob/master/caffe/caffe_ftr.py" target="_blank" rel="external"><i>caffe_ftr.py</i></a>.</p>
+<h2 id="Description">Description</h2><p>Data Pre-processing</p>
+<blockquote>
+<p>1). Download CASIA-WebFace dataset which contains 493456 face images of 10575 identities. <br><br>2). All face images are converted to gray-scale images and normalized to 144x144 according to landmarks.<br><br>3). According to the 5 facial points, we not only rotate two eye points horizontally but also set the distance between the midpoint of eyes and the midpoint of mouth(ec_mc_y), and the y axis of midpoint of eyes(ec_y) .<br></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Dataset</th>
+<th style="text-align:center">size</th>
+<th style="text-align:center">ec_mc_y</th>
+<th style="text-align:center">ec_y  </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">  CASIA-WebFace</td>
+<td style="text-align:center">144x144</td>
+<td style="text-align:center">48</td>
+<td style="text-align:center">48    </td>
+</tr>
+<tr>
+<td style="text-align:left">  lfw</td>
+<td style="text-align:center">128x128</td>
+<td style="text-align:center">48</td>
+<td style="text-align:center">40    </td>
+</tr>
+</tbody>
+</table>
+<p>Training</p>
+<blockquote>
+<p>1). The model is trained by open source deep learning framework <i>caffe</i>.<br><br>2). The network configuration is showed in “proto” file and the trained model is showed in “model” file.<br></p>
+</blockquote>
+<p>Evaluation</p>
+<blockquote>
+<p>1). The model is evaluated on LFW data set which is a popular data set for face verification task.<br><br>2). The feature extraction is used by python program <a href="https://github.com/AlfredXiangWu/python_misc/blob/master/caffe/caffe_ftr.py" target="_blank" rel="external"><i>caffe_ftr.py</i></a>. The extracted features and lfw testing pairs are located in “results” file.<br><br>3). To evaluate the model, the <a href="https://github.com/AlfredXiangWu/lfw_face_verification_experiment/blob/master/code/evaluation.m" target="_blank" rel="external">matlab code</a> or other ROC evaluation code can be used. <br></p>
+</blockquote>
+<p>Results</p>
+<p>  The single convolution net testing is evaluated on unsupervised setting only computing cosine similarity for lfw pairs.   </p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Dataset</th>
+<th style="text-align:center">EER</th>
+<th style="text-align:center">TPR@0.01</th>
+<th style="text-align:center">TPR@0.001</th>
+<th style="text-align:center">TPR@0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">lfw</td>
+<td style="text-align:center">97.77%</td>
+<td style="text-align:center">94.80%</td>
+<td style="text-align:center">84.37%</td>
+<td style="text-align:center">43.17%</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Publication">Publication</h2><p>The paper is submitted to ACM MM2015. </p>
+
         
             
         
     </div>
     <div class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">TAGGED IN</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="tags/index.html">Deep Learning</a> <a class="tag tag--primary tag--small t-link" href="tags/index.html">Face Recognition</a>
+
+            </div>
         
         <div class="post-actions-wrap">
     <nav>
@@ -173,17 +246,17 @@
     </nav>
     <ul class="post-actions post-action-share">
         <li class="post-action">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://AlfredXiangWu.github.io/2015/06/17/test/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://AlfredXiangWu.github.io/2015-06-18-Deep-Face-Representation-Learning.html">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://AlfredXiangWu.github.io/2015/06/17/test/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://AlfredXiangWu.github.io/2015-06-18-Deep-Face-Representation-Learning.html">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://AlfredXiangWu.github.io/2015/06/17/test/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://AlfredXiangWu.github.io/2015-06-18-Deep-Face-Representation-Learning.html">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -236,17 +309,17 @@
     </nav>
     <ul class="post-actions post-action-share">
         <li class="post-action">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://AlfredXiangWu.github.io/2015/06/17/test/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://AlfredXiangWu.github.io/2015-06-18-Deep-Face-Representation-Learning.html">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://AlfredXiangWu.github.io/2015/06/17/test/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://AlfredXiangWu.github.io/2015-06-18-Deep-Face-Representation-Learning.html">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://AlfredXiangWu.github.io/2015/06/17/test/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://AlfredXiangWu.github.io/2015-06-18-Deep-Face-Representation-Learning.html">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -270,7 +343,7 @@
             <i class="fa fa-remove"></i>
         </div>
         
-            <img id="about-card-picture" src="../../../../assets/images/vivio.jpg"/>
+            <img id="about-card-picture" src="assets/images/vivio.jpg"/>
         
             <h4 id="about-card-name">Alfred Xiang Wu</h4>
         
@@ -296,7 +369,7 @@
         <div id="cover" style="background-image:url('/assets/images/cover.jpg');"></div>
     </body>
     <!--SCRIPTS-->
-<script src="../../../../assets/js/script.min.js" type="text/javascript"></script>
+<script src="assets/js/script.min.js" type="text/javascript"></script>
 <!--SCRIPTS END-->
 
 
