@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+  <title><![CDATA[Alfred Xiang Wu's HomePage]]></title>
+  <subtitle><![CDATA[Alfred Xiang Wu's HomePage]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://AlfredXiangWu.github.io//"/>
+  <updated>2015-07-21T09:08:58.224Z</updated>
+  <id>http://AlfredXiangWu.github.io//</id>
+  
+  <author>
+    <name><![CDATA[Alfred Xiang Wu]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[漫谈佳能面试]]></title>
+    <link href="http://AlfredXiangWu.github.io/2015-07-21-Canon_Interview.html"/>
+    <id>http://AlfredXiangWu.github.io/2015-07-21-Canon_Interview.html</id>
+    <published>2015-07-21T09:08:58.224Z</published>
+    <updated>2015-07-21T09:08:58.224Z</updated>
+    <content type="html"><![CDATA[<p>其实吧，我当初只是在猎聘网上看到这个职位了，觉得和自己契合度很高，于是就扔了份简历过去，然后第二天就收到面试通知了。这里还要吐槽一下，总共投了五家公司，说实话我的硬性要求基本都不满足，社会招聘3年工作经验对我一个还没毕业的硕士来说当然是不可能满足的。我的想法是，既然我明知不满足硬性要求也投了简历，那说明我对自己的实力还是有一定自信的，HR应该会至少给一个面试机会才对。然而我投的五家只有佳能和三星最终给了我面试机会，这里说先一下结果，这两家面试我都过了。其他三家至今没任何消息，话说这三家公司的名字我也真的是从未耳闻过，于是这里也就体现出HR办事的差距了。</p>
+<p>言归正传，之前说了三星那边我也过了，不过那边只是过了技术面，三星说因为我还没毕业，没法签三方直接入职，我又拒绝了那边实习的要求，所以人事面暂时搁置。接下来来谈谈佳能。</p>
+<p>第一、二轮面试是上周二(7.14)，面试流程如下：</p>
+<pre><code>14<span class="pseudo">:00</span>—15<span class="pseudo">:00</span>            测试（技术&amp;英语）&amp;<span class="tag">HR</span>面谈
+15<span class="pseudo">:00</span>—16<span class="pseudo">:00</span>            一面（技术面试），项目经理面谈
+16<span class="pseudo">:00</span>—17<span class="pseudo">:00</span>            二面（若一面通过），部长面谈
+17<span class="pseudo">:00</span>—17<span class="pseudo">:30</span>            <span class="tag">HR</span>课长面谈
+</code></pre><p>这里首先说一下，千万不要迟到，之前就在网上看到，日企是最注重时间的，迟到1分钟后果也是很严重的。</p>
+<p>技术测试： 其实我觉得影响因素不是很大，技术测试我做的是一份C++试题，10个选择，5个填空，2个简答，2个编程。基本都是基础题吧，不过要是只靠上课学的知识是不够的，如果翻过一遍C++ primer应该没啥问题。不过我表示其实这份题对后期面试影响不大，因为我是去空手套白狼的，根本就没复习过C++，平时写代码更多的用matlab和python，所以其实我答那份卷子的结果应该很烂吧，至少有个string转float的算法我不会写，于是就空白了。</p>
+<p>HR面谈： 这个HR就是给你打电话发邮件约你来面试的那个，基本就是了解一下你的具体情况，其实需要注意的是HR在你面试全程其实都是你的有力帮手，一定不要想着HR会怎么刁难你，她的所有问题都是为了更了解你个人的综合素质，坦诚一点就好。</p>
+<p>一面：两个人来面我，因为我一直在做人脸方向，所以就从人脸作为切入点了。面试基本接近于聊天和技术交流，刚开始面试官会针对你的方向提一些基本问题，比如问了我face verification和face identification的区别，verification是怎么测试的，identification是怎么测试的，open-set和close-set有什么区别。这些都是很基础的问题，只要你做过这方面的研究，不知道这些才是不正常的表现。基础问题应该是面试官考察你简历真实性的最直接手段。接下来基本针对face verification和LFW进行了很长时间的讨论，注意我这里用的词是讨论，因为我觉得整个面试氛围就和学术交流没什么区别，具体关于face++, Yi Sun, DeepFace和Facenet算法都有涉及，这里就是平时积累了，看你究竟对业界了解多少，你自己又是怎么认识你所研究的问题的。然后又扯了扯检测和Deep Learning，谈自己的观点就好，很多问题都是很开放的，没有标准答案一说，于是氛围很轻松的结束了一面。</p>
+<p> 二面：二面是开发部部长，又是一个很好的大叔，话说这个大叔在我昨天三面的时候帮了我大忙了，这个一会儿再表。面试流程基本还是自我介绍，然后谈谈项目经历，部长问问题，会更宏观一些，技术细节问的少了，但是关于宏观上不同算法的比较，各个算法的优劣，我个人对这些的看法会关注的更多些，也会问其他技术方面的问题，比如编程、比如英语能力等等。总之氛围也很轻松，关于三面的消息其实还是这位部长先告诉我的，说是如果通过面试会有佳能总经理英语面，然后还告诉了我一些总经理面时可能问到的问题。</p>
+<p>HR课长面：这里基本和HR面试没啥区别了。然后漫长的面试结束了，话说佳能这时间卡的真准，整整3个半小时。然后HR告诉我回去等通知。</p>
+<p>周五（7.17）的时候收到了HR的电话通知三面时间，并且告诉我面试形式。</p>
+<pre><code>面试时间：2015年7月20日（即下周一）下午15<span class="pseudo">:00</span>
+面试流程：
+面试时间：15<span class="pseudo">:00</span>—16<span class="pseudo">:00</span>
+面 试 官：总经理（主要面试官）、第二开发部部长、管理部部长、<span class="tag">HR</span>课长
+面试语言：英文
+</code></pre><p>三面：总经理是一个50-60岁的日本老头，很和蔼可亲，英语发音也相当标准，完全没有大家黑的那样什么日式英语之类，上来先自我介绍。<br>关于专业问题</p>
+<ol>
+<li>Deep learning的优点和缺点</li>
+<li>Deep learning是否是万能的</li>
+<li>传统方法相较Deep learning而言是不是没有一点优势</li>
+<li>在实际系统中可否结合传统方法和deep learning</li>
+</ol>
+<p>其实都是很基础很宏观的问题，不过属实说我答得应该并不怎么好，或者说我答的可能太宏观了，没有从具体的实例出发，于是这里那个特别好的开发部长帮我说话了，说我应该从face verification这个具体实例来切入，回答这些问题吧啦吧啦，这个部长简直好人啊，基本帮我把问题都回答了。另外这里要提醒一下，要勇于说不知道/不理解，第二个关于deep learning是否是万能的这个问题，我没听懂“万能的”这个词，于是不知道怎么回答，这里就直接实话实说没听懂问题就好了，旁边的陪同面试官都是会中文的，会帮你翻译解释。</p>
+<p>非专业问题</p>
+<ol>
+<li>为什么选择佳能</li>
+<li>你喜欢什么运动</li>
+<li>你是什么位置，你跑的快么，你怎么看待足球这个运动</li>
+<li>你认为你的研究成果可以转化成什么产品为佳能服务</li>
+</ol>
+<p>第三个问题是因为我第二个问题回答的是足球，于是顺带问的。我猜其实想问的应该是team work吧，所以我基本也就是沿着team work这个思路去回答的。另外关于第一个问题我说吧啦吧啦扯了一堆以后补了句”To be honest, I like Japanese comics and animations, it is an important reason I choose Canon. “然后四个面试官都笑了，开发部部长直接用中文说“真的假的？！”。哈哈，于是面试就基本愉快的结束了。</p>
+<p>然后我到另一间屋子里等着，他们四个人讨论了半个小时后，人事部部长和我说，技术方面他们认可，但是最终offer要等到8月中上旬，他们向总公司汇报工程师研究员计划人数，然后审批下来才可以确定是否有职位可以提供给我，因为佳能的技术工程师人数是严格限制的，所以现在给offer只有90%的把握。关于待遇，因为HR课长不在（之前三面出席的也不是HR课长，应该是找个其他人代替的），所以会最近再约时间谈具体的待遇问题，于是三面就愉快的结束了。</p>
+<p>总结一下，我去面佳能，包括面三星都是空手套白狼，除了佳能三面准备了英语面试以外，并没有进行专门的准备。所以其实面试这种事情，还是重在平时积累，临时抱佛脚我觉得是万般无奈才为之吧。</p>
+<p>最后关于要不要去佳能，昨天还和某群机油聊天，我说我当初的想法就是拿佳能和三星这种二线公司练手，然后去试试微软、索尼，顺便再来一下BAT神马的。然后这帮人的回复如下：</p>
+<p><img src="http://i.imgur.com/M6CeRiw.jpg" alt="enter image description here"><br><img src="http://i.imgur.com/cHqHwtg.jpg" alt="enter image description here"></p>
+<p>于是，我是太小看佳能了么？！Σ( ° △ °|||)︴<br>那我认真考虑一下好了。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>其实吧，我当初只是在猎聘网上看到这个职位了，觉得和自己契合度很高，于是就扔了份简历过去，然后第二天就收到面试通知了。这里还要吐槽一下，总共投了五家公司，说实话我的硬性要求基本都不满足，社会招聘3年工作经验对我一个还没毕业的硕士来说当然是不可能满足的。我的想法是，既然我明知不]]>
+    </summary>
+    
+      <category term="Interview" scheme="http://AlfredXiangWu.github.io/tags/Interview/"/>
+    
+      <category term="Interview" scheme="http://AlfredXiangWu.github.io/categories/Interview/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Deep Face Representation]]></title>
+    <link href="http://AlfredXiangWu.github.io/2015-06-18-Deep-Face-Representation-Learning.html"/>
+    <id>http://AlfredXiangWu.github.io/2015-06-18-Deep-Face-Representation-Learning.html</id>
+    <published>2015-06-18T11:17:56.000Z</published>
+    <updated>2015-07-21T08:51:58.687Z</updated>
+    <content type="html"><![CDATA[<p>This <a href="https://github.com/AlfredXiangWu/lfw_face_verification_experiment" target="_blank" rel="external">Deep Face Representation Experiment</a> is based on Convolution Neural Network to learn a robust feature for face verification task. The popular deep learning framework <a href="https://github.com/AlfredXiangWu/caffe" target="_blank" rel="external"><i>caffe</i></a> is used for training on <a href="http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html" target="_blank" rel="external">CASIA-WebFace dataset</a>  and the feature extraction is realized by python code <a href="https://github.com/AlfredXiangWu/python_misc/blob/master/caffe/caffe_ftr.py" target="_blank" rel="external"><i>caffe_ftr.py</i></a>.</p>
+<h2 id="Description">Description</h2><p>Data Pre-processing</p>
+<blockquote>
+<p>1). Download CASIA-WebFace dataset which contains 493456 face images of 10575 identities. <br><br>2). All face images are converted to gray-scale images and normalized to 144x144 according to landmarks.<br><br>3). According to the 5 facial points, we not only rotate two eye points horizontally but also set the distance between the midpoint of eyes and the midpoint of mouth(ec_mc_y), and the y axis of midpoint of eyes(ec_y) .<br></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Dataset</th>
+<th style="text-align:center">size</th>
+<th style="text-align:center">ec_mc_y</th>
+<th style="text-align:center">ec_y  </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">  CASIA-WebFace</td>
+<td style="text-align:center">144x144</td>
+<td style="text-align:center">48</td>
+<td style="text-align:center">48    </td>
+</tr>
+<tr>
+<td style="text-align:left">  lfw</td>
+<td style="text-align:center">128x128</td>
+<td style="text-align:center">48</td>
+<td style="text-align:center">40    </td>
+</tr>
+</tbody>
+</table>
+<p>Training</p>
+<blockquote>
+<p>1). The model is trained by open source deep learning framework <i>caffe</i>.<br><br>2). The network configuration is showed in “proto” file and the trained model is showed in “model” file.<br></p>
+</blockquote>
+<p>Evaluation</p>
+<blockquote>
+<p>1). The model is evaluated on LFW data set which is a popular data set for face verification task.<br><br>2). The feature extraction is used by python program <a href="https://github.com/AlfredXiangWu/python_misc/blob/master/caffe/caffe_ftr.py" target="_blank" rel="external"><i>caffe_ftr.py</i></a>. The extracted features and lfw testing pairs are located in “results” file.<br><br>3). To evaluate the model, the <a href="https://github.com/AlfredXiangWu/lfw_face_verification_experiment/blob/master/code/evaluation.m" target="_blank" rel="external">matlab code</a> or other ROC evaluation code can be used. <br></p>
+</blockquote>
+<p>Results</p>
+<p>  The single convolution net testing is evaluated on unsupervised setting only computing cosine similarity for lfw pairs.   </p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Dataset</th>
+<th style="text-align:center">EER</th>
+<th style="text-align:center">TPR@0.01</th>
+<th style="text-align:center">TPR@0.001</th>
+<th style="text-align:center">TPR@0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">lfw</td>
+<td style="text-align:center">97.77%</td>
+<td style="text-align:center">94.80%</td>
+<td style="text-align:center">84.37%</td>
+<td style="text-align:center">43.17%</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    <summary type="html">
+    <![CDATA[This Deep Face Representation Experiment is based on Convolution Neural Network to learn a robust feature for face verification task.]]>
+    
+    </summary>
+    
+      <category term="Deep Learning" scheme="http://AlfredXiangWu.github.io/tags/Deep-Learning/"/>
+    
+      <category term="Face Recognition" scheme="http://AlfredXiangWu.github.io/tags/Face-Recognition/"/>
+    
+      <category term="Deep Learning" scheme="http://AlfredXiangWu.github.io/categories/Deep-Learning/"/>
+    
+  </entry>
+  
+</feed>
