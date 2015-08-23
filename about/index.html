@@ -137,15 +137,15 @@
         <h1 class="post-title" itemprop="headline">About me</h1>
     
     <div class="post-meta">
-    <time  itemprop="datePublished" content="Fri Jun 19 2015 17:43:29 GMT+0800">
-        Jun 19, 2015
+    <time  itemprop="datePublished" content="Sun Aug 23 2015 22:03:17 GMT+0800">
+        Aug 23, 2015
     </time>
     
 </div>
 </div>
     
     <div class="post-content markdown main-content-wrap" itemprop="articleBody">
-        <h1 id="Xiang_Wu">Xiang Wu</h1><p><strong>Address</strong>: No.30 Xueyuan Road, Hadian District, Beijing, China, 100083<br><strong>Birth</strong>: 13th April, 1990<br><strong>Mobile Phone</strong>: +(86) 152 1060 2979<br><strong>Email</strong>: alfredxiangwu[at]gmail.com</p>
+        <h1 id="Xiang_Wu">Xiang Wu</h1><p><strong>Address</strong>: No.30 Xueyuan Road, Hadian District, Beijing, China, 100083<br><strong>Birth</strong>: 13th April, 1990<br><strong>Email</strong>: alfredxiangwu[at]gmail.com</p>
 <h2 id="Education">Education</h2><p><strong>Sep 2013 - Present</strong>   Master Candidate in Electrical Engineering, School of Computer and Communication Engineering,  University of Science and Technology Beijing, China</p>
 <p><strong>Sep 2009 - Jun 2013</strong> Bachelor Degree in Electrical Engineering, School of Computer and Communication Engineering, University of Science and Technology Beijing, China</p>
 <p><strong>Sep 2010 - Jun 2013</strong> Double Bachelor Degree in Information Management and Information System, Dongling School of Economics and Management, University of Science and Technology Beijing, China</p>
@@ -196,8 +196,27 @@
 <li>The National Scholarship, 7/300, 2012.</li>
 <li>The Excellent Merit Student of  University of Science and Technology Beijing, 15/300, 2012.</li>
 </ul>
-<h2 id="Publication">Publication</h2><p>Xiang Wu, Zhiguo Shi, Lei Liu. Quasi Cosine Similarity Metric Learning. The 12th Asian Conference on Computer Vision (ACCV), 2014.<br>Xiang Wu, Lei Liu, Zhiguo Shi. Image Denosing with Wavelet Markov Fields of Experts. International Journal of Machine Learning and Computing (IJMLC), vol.4 no.6, 2014.</p>
-<h2 id="Project">Project</h2><p>To be continue</p>
+<h2 id="Project">Project</h2><p><strong>Face Recognition based on Convolution Neural Network</strong><br>The project is based on Convolution Neural Network to design face identification and face verification algorithm.</p>
+<ul>
+<li>Prepare the face data for training CNN model which contains face image alignment and normalization.</li>
+<li>Train CNN model using caffe framework.</li>
+<li>Handle evaluation data set (<a href="http://vis-www.cs.umass.edu/lfw/" target="_blank" rel="external">LFW</a>, <a href="http://www.cs.tau.ac.il/~wolf/ytfaces/" target="_blank" rel="external">YTF</a> and <a href="http://www.nist.gov/itl/iad/ig/facechallenges.cfm" target="_blank" rel="external">IJB-A</a>) including face detection, facial point extract and face alignment.</li>
+<li>Implement the <a href="https://github.com/AlfredXiangWu/matlab_misc/tree/master/face_verification/evaluation/src" target="_blank" rel="external">code</a> of face verification  evaluation and face identification evaluation.</li>
+<li>Bootstrapping data set to enhance the generalization of CNN model.  </li>
+<li>Implement deep metric learning framework in caffe.</li>
+<li>I obtained <strong>97.77%</strong> on LFW data set. The <a href="http://arxiv.org/abs/1507.04844" target="_blank" rel="external">technique report</a> is published on arXiv and the detail of project is <a href="https://github.com/AlfredXiangWu/face_verification_experiment" target="_blank" rel="external">here</a> </li>
+</ul>
+<p><strong>Face detection based on Cascade Convolution Neural Network</strong><br>The project is based on Cascade classifier framework and convolution neural network.</p>
+<ul>
+<li>Prepare positive samples from AFLW data set (re-annotated and cropped based on facial point) and negative samples.</li>
+<li>Train different resolution CNN model.</li>
+<li>Implement the framework of face detector based on Cascade Convolution Neural Network.</li>
+</ul>
+<p><strong>Face Verification based on Fisher Vector</strong><br>The project is based on BMVC 2013 paper <a href="http://www.robots.ox.ac.uk/~vgg/software/face_desc/" target="_blank" rel="external">“Fisher Vector Faces in the Wild”</a>. </p>
+<ul>
+<li>Implement the testing process for fisher vector face by C including face alignment(based on <a href="http://www.robots.ox.ac.uk/~vgg/publications/html/everingham06a-abstract.html" target="_blank" rel="external">this work</a>), extracting dense SIFT features(based on <a href="http://www.vlfeat.org/api/dsift.html" target="_blank" rel="external">VLFeat</a>), PCA, GMM and Fisher Vector computing. </li>
+</ul>
+<h2 id="Publication">Publication</h2><p>Xiang Wu. Learning Robust Deep Face Representation. arXiv preprint arXiv:1507.04844, 2015.<br>Xiang Wu, Zhiguo Shi, Lei Liu. Quasi Cosine Similarity Metric Learning. The 12th Asian Conference on Computer Vision (ACCV), 2014.<br>Xiang Wu, Lei Liu, Zhiguo Shi. Image Denosing with Wavelet Markov Fields of Experts. International Journal of Machine Learning and Computing (IJMLC), vol.4 no.6, 2014.</p>
 
         
             
